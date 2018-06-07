@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "compat52"
-version = "0.2-1"
+version = "0.3-1"
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/compat52.git"
 }
 -- Original source
 -- source = {
---    url = "https://github.com/hishamhm/lua-compat-5.2/archive/v0.2.zip",
---    dir = "lua-compat-5.2-0.2",
+--    url = "https://github.com/hishamhm/lua-compat-5.2/archive/v0.3.zip",
+--    dir = "lua-compat-5.2-0.3",
 -- }
 description = {
    summary = "Compatibility module providing Lua-5.2-style APIs for Lua 5.1",
