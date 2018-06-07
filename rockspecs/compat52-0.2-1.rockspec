@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "compat52"
-version = "0.1-1"
--- LuaDist source
+version = "0.2-1"
 source = {
-  tag = "0.1-1",
-  url = "git://github.com/LuaDist-testing/compat52.git"
+   url = "https://github.com/hishamhm/lua-compat-5.2/archive/v0.2.zip",
+   dir = "lua-compat-5.2-0.2",
 }
--- Original source
--- source = {
---    url = "https://github.com/hishamhm/lua-compat-5.2/archive/v0.1.zip",
---    dir = "lua-compat-5.2-0.1",
--- }
 description = {
    summary = "Compatibility module providing Lua-5.2-style APIs for Lua 5.1",
    detailed = [[
@@ -25,11 +17,13 @@ description = {
 }
 dependencies = {
    "lua >= 5.1, < 5.3",
-   "bit32"
+   "bit32",
 }
 build = {
    type = "builtin",
    modules = {
       ["compat52"] = "compat52.lua",
+      ["compat52.strict"] = "compat52/strict.lua",
+      ["compat52.mstrict"] = "compat52/mstrict.lua",
    }
 }

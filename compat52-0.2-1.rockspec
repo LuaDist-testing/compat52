@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "compat52"
-version = "scm-1"
+version = "0.2-1"
+-- LuaDist source
 source = {
-   url = "https://github.com/hishamhm/lua-compat-5.2/archive/master.zip",
-   dir = "lua-compat-5.2-master",
+  tag = "0.2-1",
+  url = "git://github.com/LuaDist-testing/compat52.git"
 }
+-- Original source
+-- source = {
+--    url = "https://github.com/hishamhm/lua-compat-5.2/archive/v0.2.zip",
+--    dir = "lua-compat-5.2-0.2",
+-- }
 description = {
    summary = "Compatibility module providing Lua-5.2-style APIs for Lua 5.1",
    detailed = [[
